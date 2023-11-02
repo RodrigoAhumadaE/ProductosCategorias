@@ -1,0 +1,36 @@
+@model Producto
+<div class="titulo text-center">
+    <h2>Nuevo Producto</h2>
+</div>
+<form asp-controller="Producto" asp-action="ProcesaProducto">
+    <div class="item">
+        <div class="label">
+            <label asp-for="Nombre">Nombre: </label>
+        </div>
+        <div class="input">
+            <input type="text" asp-for="Nombre">
+            <span asp-validation-for="Nombre"></span>
+        </div>
+    </div>
+    <div class="item">
+        <div class="label">
+            <label asp-for="Descripcion">Descripcion: </label>
+        </div>
+        <div class="input">
+            <input type="text" asp-for="Descripcion">
+            <span asp-validation-for="Descripcion"></span>
+        </div>
+    </div>
+    <div class="item">
+        <div class="label">
+            <label asp-for="Precio">Precio: </label>
+        </div>
+        <div class="input">
+            <input type="text" asp-for="Precio">
+            <span asp-validation-for="Precio"></span>
+        </div>
+    </div>
+    <div class="boton">
+        <button class="btn btn-primary">Crear</button>
+    </div>
+</form> 

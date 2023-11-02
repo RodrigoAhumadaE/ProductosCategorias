@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProductosCategorias
+build_property.RootNamespace = ProductosCategorias
+build_property.ProjectDir = D:\Rodrigo\Bootcamp Sonda\C#-.Net\practicas\ORMs\ProductosCategorias\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Rodrigo\Bootcamp Sonda\C#-.Net\practicas\ORMs\ProductosCategorias
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/Categoria/Categoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENhdGVnb3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/Categoria/_ListaCategorias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXF9MaXN0YUNhdGVnb3JpYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/Categoria/_NuevaCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXF9OdWV2YUNhdGVnb3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/Producto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/Producto/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/Producto/_ListaProductos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cX0xpc3RhUHJvZHVjdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/Producto/_NuevoProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cX051ZXZvUHJvZHVjdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Rodrigo/Bootcamp Sonda/C\#-.Net/practicas/ORMs/ProductosCategorias/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9hzputrrha

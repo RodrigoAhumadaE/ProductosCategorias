@@ -1,0 +1,18 @@
+@model Categoria
+<div class="titulo text-center">
+    <h2>Nueva Categoria</h2>
+</div>
+<form asp-controller="Categoria" asp-action="ProcesaCategoria">
+    <div class="item">
+        <div class="label">
+            <label asp-for="Nombre">Nombre: </label>
+        </div>
+        <div class="input">
+            <input type="text" asp-for="Nombre">
+            <span asp-validation-for="Nombre"></span>
+        </div>
+    </div>
+    <div class="boton">
+        <button class="btn btn-primary">Crear</button>
+    </div>
+</form> 

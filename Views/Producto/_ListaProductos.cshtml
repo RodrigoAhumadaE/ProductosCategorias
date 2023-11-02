@@ -1,0 +1,13 @@
+@model List<Producto>
+<div class="titulo text-center">
+    <h2>Todos los Productos</h2>
+</div>
+<div class="productos">
+    @if(@Model != null){
+        <ul>
+            @foreach(Producto prod in @Model){
+                <li><a href="#">@prod.Nombre</a></li>
+            }
+        </ul>  
+    }            
+</div>

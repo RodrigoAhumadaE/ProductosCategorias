@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Categoria";
+}
+
+@model CategoriaCategorias
+<div class="contenido">
+    <div class="agregar">
+        @await Html.PartialAsync("_NuevaCategoria", @Model?.Categoria)
+    </div>
+    <div class="listar">
+        @await Html.PartialAsync("_ListaCategorias", @Model?.ListaCategorias)
+    </div>
+</div>
