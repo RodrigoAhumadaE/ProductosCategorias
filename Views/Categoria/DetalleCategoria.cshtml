@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Detalle Categoría";
+}
+@model CatProductos
+<div class="titulo text-center">
+    <h2>@Context.Session.GetString("NombreCategoria")</h2>
+</div>
+<div class="contenido">
+    <div class="listar">
+        @await Html.PartialAsync("_ListaProdCat", Model?.CatProd)
+    </div>
+    <div class="agregar">
+        @await Html.PartialAsync("_NuevoProdCat", Model?.ListaProductos)
+    </div>
+</div>

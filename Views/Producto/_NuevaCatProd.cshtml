@@ -1,0 +1,17 @@
+@model List<Categoria>
+<form asp-controller="Producto" asp-action="AgregarCategoria">
+    <div class="item">
+        <div class="input">
+            <h2 class="titulo text-center">Agregar Categoría</h2>
+            <select name="CategoriaId">
+                @foreach(Categoria cat in @Model){
+                    <option value="@cat.CategoriaId">@cat.Nombre</option>
+                }
+            </select>
+            <input type="hidden" name="ProductoID" value="@Context.Session.GetInt32("productoId")">
+            <div class="boton">
+                <button class="btn btn-primary">Agregar Categoría</button>
+            </div>
+        </div>        
+    </div>
+</form>

@@ -1,12 +1,12 @@
 @model List<Categoria>
 <div class="titulo text-center">
-    <h2>Todas las Categorias</h2>
+    <h2>Todas las Categorías</h2>
 </div>
-<div class="productos">
+<div class="lista">
     @if(@Model != null){
         <ul>
             @foreach(Categoria cat in @Model){
-                <li><a href="#">@cat.Nombre</a></li>
+                <li><a asp-controller="Categoria" asp-action="DetalleCategoria" asp-route-CategoriaId="@cat.CategoriaId">@cat.Nombre</a></li>
             }
         </ul>  
     }            

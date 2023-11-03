@@ -30,6 +30,10 @@
   gap: 20px;
 }
 
+.titulo{
+  margin-top: 20px;
+}
+
 .agregar, .listar{
   flex: 1;
 }
@@ -38,6 +42,11 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.listar{
   padding: 10px;
   box-sizing: border-box;
 }
@@ -56,4 +65,11 @@
   flex: 2;
   display: flex;
   flex-direction: column;
+}
+
+.boton{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
 }

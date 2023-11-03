@@ -1,0 +1,13 @@
+@model Producto
+<div class="titulo text-center">
+    <h2>Categoría/s</h2>
+</div>
+<div class="lista">
+    @if(@Model.Asociaciones != null){
+        <ul>
+            @foreach(Asociacion aso in @Model.Asociaciones){
+                <li>@aso.Categoria.Nombre</li>
+            }
+        </ul>  
+    }            
+</div>

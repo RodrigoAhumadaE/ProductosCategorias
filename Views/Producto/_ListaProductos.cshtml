@@ -2,11 +2,11 @@
 <div class="titulo text-center">
     <h2>Todos los Productos</h2>
 </div>
-<div class="productos">
+<div class="lista">
     @if(@Model != null){
         <ul>
             @foreach(Producto prod in @Model){
-                <li><a href="#">@prod.Nombre</a></li>
+                <li><a asp-controller="Producto" asp-action="DetalleProducto" asp-route-ProductoId="@prod.ProductoId">@prod.Nombre</a></li>
             }
         </ul>  
     }            

@@ -11,7 +11,7 @@ using ProductosCategorias.Models;
 namespace ProductosCategorias.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20231102162203_PrimeraMigracion")]
+    [Migration("20231103012928_PrimeraMigracion")]
     partial class PrimeraMigracion
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
